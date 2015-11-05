@@ -30,6 +30,7 @@ include_directories(source)
 
 link_libraries (
    ${SDL_LIBRARY}
+   m
 )
 
 add_definitions("-Wall -std=c99 --pedantic")
